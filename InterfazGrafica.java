@@ -134,7 +134,7 @@ public class InterfazGrafica extends javax.swing.JFrame {
 
         try {//primero: definimos la ubicación del archivo en una variable 
             //ademas, leemos el archivo, con la clase BufferReader
-            FileReader ubicacion = new FileReader("C:\\Users\\USER\\Desktop\\2020-2\\Redes\\Trabajo\\prueba1.txt");
+            FileReader ubicacion = new FileReader("C:\\Users\\USER\\Desktop\\2020-2\\Redes\\Trabajo\\avance\\prueba1.txt");
             BufferedReader lector = new BufferedReader(ubicacion);
 
             while ((cadena = lector.readLine()) != null) {
@@ -225,7 +225,7 @@ public class InterfazGrafica extends javax.swing.JFrame {
 
         try {//primero: definimos la ubicación del archivo en una variable 
             //ademas, leemos el archivo, con la clase BufferReader
-            FileReader ubicacion = new FileReader("C:\\Users\\USER\\Desktop\\2020-2\\Redes\\Trabajo\\prueba2.txt");
+            FileReader ubicacion = new FileReader("C:\\Users\\USER\\Desktop\\2020-2\\Redes\\Trabajo\\avance\\prueba2.txt");
             BufferedReader lector = new BufferedReader(ubicacion);
 
             while ((cadena = lector.readLine()) != null) {
@@ -316,7 +316,7 @@ public class InterfazGrafica extends javax.swing.JFrame {
 
         try {//primero: definimos la ubicación del archivo en una variable 
             //ademas, leemos el archivo, con la clase BufferReader
-            FileReader ubicacion = new FileReader("C:\\Users\\USER\\Desktop\\2020-2\\Redes\\Trabajo\\prueba3.txt");
+            FileReader ubicacion = new FileReader("C:\\Users\\USER\\Desktop\\2020-2\\Redes\\Trabajo\\avance\\prueba3.txt");
             BufferedReader lector = new BufferedReader(ubicacion);
 
             while ((cadena = lector.readLine()) != null) {
